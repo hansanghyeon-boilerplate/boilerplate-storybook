@@ -1,0 +1,20 @@
+{
+  "extends": "@imwebme/bo-tsconfig/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~sb/*": [
+        "./src/components/*"
+      ]
+    }
+  },
+  "include": [
+    ".",
+    "../../packages/config-tsconfig/typings/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}
